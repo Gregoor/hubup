@@ -1,6 +1,6 @@
 {
   "name": "hubup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automates the full release process for npm packages",
   "author": "Brady Holt & Gregor Weber",
   "license": "MIT",
@@ -31,5 +31,8 @@
   },
   "engines": {
     "node": ">= 7.6.0"
+  },
+  "scripts": {
+    "release": "node index.js"
   }
 }
