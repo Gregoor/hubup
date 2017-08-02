@@ -1,0 +1,35 @@
+{
+  "name": "hubup",
+  "version": "0.10.22",
+  "description": "Automates the full release process for npm packages",
+  "author": "Brady Holt & Gregor Weber",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "hubup": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregoor/hubup"
+  },
+  "keywords": [
+    "release",
+    "publish",
+    "github",
+    "prepublish",
+    "pre",
+    "asset"
+  ],
+  "bugs": {
+    "url": "https://github.com/gregoor/hubup/issues"
+  },
+  "homepage": "https://github.com/Gregoor/hubup#readme",
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "github": "^9.2.0",
+    "inquirer": "^3.2.1"
+  },
+  "engines": {
+    "node": ">= 7.6.0"
+  }
+}
